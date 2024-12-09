@@ -1,0 +1,53 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0e18; /* Fondo oscuro inspirado en LoL */
+    color: #e2e2e2; /* Texto claro */
+    line-height: 1.8;
+    padding: 0 10%;
+}
+
+h1 {
+    color: #c9aa71; /* Dorado suave */
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3, h5 {
+    color: #c9aa71;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    margin: 15px 0;
+    text-align: justify;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 3px solid #c9aa71;
+}
+
+/* Navegación entre campeones */
+a {
+    display: inline-block;
+    background: #1e1e2a;
+    color: #1e90ff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    border: 1px solid #1e90ff;
+    transition: background 0.3s, color 0.3s;
+}
+
+a:hover {
+    background: #1e90ff;
+    color: #0a0e18;
+}

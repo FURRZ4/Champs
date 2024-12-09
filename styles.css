@@ -1,0 +1,66 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0e18; /* Fondo oscuro inspirado en LoL */
+    color: #e2e2e2; /* Texto claro */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1, h3, h4, h5 {
+    color: #c9aa71; /* Dorado */
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Imagen */
+img {
+    max-width: 150px; /* Tamaño controlado */
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 3px solid #c9aa71; /* Borde dorado */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+/* Botón "Empezar" */
+h5 a {
+    display: inline-block;
+    background: #1e1e2a; /* Fondo oscuro */
+    color: #1e90ff; /* Azul brillante */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #1e90ff;
+    transition: background 0.3s, color 0.3s;
+}
+
+h5 a:hover {
+    background: #1e90ff;
+    color: #0a0e18; /* Contraste */
+}
+
+/* Lista de campeones */
+a {
+    display: block;
+    background: #1e1e2a; /* Fondo oscuro */
+    color: #1e90ff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #1e90ff;
+    transition: background 0.3s, color 0.3s;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    background: #1e90ff;
+    color: #0a0e18;
+}
